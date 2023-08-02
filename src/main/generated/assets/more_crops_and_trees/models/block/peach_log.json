@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "more_crops_and_trees:block/peach_log_top",
+    "side": "more_crops_and_trees:block/peach_log"
+  }
+}

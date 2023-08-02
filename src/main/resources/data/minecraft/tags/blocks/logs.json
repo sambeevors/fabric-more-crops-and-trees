@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "more_crops_and_trees:peach_log",
+    "more_crops_and_trees:peach_wood",
+    "more_crops_and_trees:stripped_peach_log",
+    "more_crops_and_trees:stripped_peach_wood"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "structure": {
+    "blocks": [
+      {
+        "pos": [0, 0, 0],
+        "state": {
+          "Name": "more_crops_and_trees:peach_log",
+          "Properties": { "axis": "y" }
+        }
+      },
+      {
+        "pos": [0, 1, 0],
+        "state": {
+          "Name": "more_crops_and_trees:peach_log",
+          "Properties": { "axis": "y" }
+        }
+      },
+      {
+        "pos": [0, 2, 0],
+        "state": {
+          "Name": "more_crops_and_trees:peach_log",
+          "Properties": { "axis": "y" }
+        }
+      },
+      {
+        "pos": [0, 3, 0],
+        "state": {
+          "Name": "more_crops_and_trees:peach_log",
+          "Properties": { "axis": "y" }
+        }
+      },
+      {
+        "pos": [0, 4, 0],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      },
+      {
+        "pos": [-1, 4, 0],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      },
+      {
+        "pos": [1, 4, 0],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      },
+      {
+        "pos": [0, 4, -1],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      },
+      {
+        "pos": [0, 4, 1],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      },
+      {
+        "pos": [0, 5, 0],
+        "state": { "Name": "more_crops_and_trees:peach_leaves" }
+      }
+    ],
+    "entities": []
+  },
+  "size": [1, 6, 1],
+  "palettes": [
+    {
+      "blocks": [
+        {
+          "Name": "more_crops_and_trees:peach_log",
+          "Properties": {
+            "axis": "y"
+          }
+        },
+        {
+          "Name": "more_crops_and_trees:peach_leaves"
+        }
+      ]
+    }
+  ]
+}

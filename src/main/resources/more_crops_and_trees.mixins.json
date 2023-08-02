@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.s18.more_crops_and_trees.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["ExampleMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

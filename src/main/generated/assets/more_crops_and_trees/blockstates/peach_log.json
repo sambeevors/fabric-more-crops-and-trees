@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "more_crops_and_trees:block/peach_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "more_crops_and_trees:block/peach_log"
+    },
+    "axis=z": {
+      "model": "more_crops_and_trees:block/peach_log_horizontal",
+      "x": 90
+    }
+  }
+}

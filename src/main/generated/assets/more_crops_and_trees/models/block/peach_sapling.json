@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "more_crops_and_trees:block/peach_sapling"
+  }
+}

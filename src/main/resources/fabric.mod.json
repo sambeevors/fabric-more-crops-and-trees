@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "more_crops_and_trees",
+  "version": "${version}",
+  "name": "More Crops & Trees",
+  "description": "More crops and trees for Minecraft!",
+  "authors": ["Sam Beevors (s18)"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/more_crops_and_trees/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.s18.more_crops_and_trees.MoreCropsAndTrees"],
+    "client": ["net.s18.more_crops_and_trees.MoreCropsAndTreesClient"],
+    "fabric-datagen": [
+      "net.s18.more_crops_and_trees.MoreCropsAndTreesDataGenerator"
+    ]
+  },
+  "mixins": ["more_crops_and_trees.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
