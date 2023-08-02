@@ -1,6 +1,5 @@
 package net.s18.more_crops_and_trees.world;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -20,13 +19,13 @@ import net.s18.more_crops_and_trees.block.ModBlocks;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> PEACH_KEY = registerKey("peach");
 
-    public static void run(Registerable<ConfiguredFeature<?, ?>> context) {
+    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PEACH_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PEACH_LOG),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.PEACH_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
-                new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.SAND)).build());
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
