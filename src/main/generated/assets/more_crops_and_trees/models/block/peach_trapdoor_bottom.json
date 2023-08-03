@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "more_crops_and_trees:block/peach_trapdoor"
+  }
+}

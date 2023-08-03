@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "more_crops_and_trees:peach_planks"
+    }
+  },
+  "pattern": ["W#W", "W#W"],
+  "result": {
+    "count": 3,
+    "item": "more_crops_and_trees:peach_fence"
+  },
+  "show_notification": true
+}

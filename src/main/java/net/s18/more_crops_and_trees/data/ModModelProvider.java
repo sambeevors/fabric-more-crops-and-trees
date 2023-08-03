@@ -18,6 +18,18 @@ public class ModModelProvider extends FabricModelProvider {
                 .wood(ModBlocks.STRIPPED_PEACH_WOOD);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_PLANKS);
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_BUTTON); // No registerButton ?
+        blockStateModelGenerator.registerDoor(ModBlocks.PEACH_DOOR);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_FENCE_GATE); // No registerFence ?
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_FENCE); // No registerFence ?
+        blockStateModelGenerator.registerHangingSign(ModBlocks.STRIPPED_PEACH_LOG, ModBlocks.PEACH_HANGING_SIGN, ModBlocks.PEACH_WALL_HANGING_SIGN);
+//        blockStateModelGenerator.registerWeightedPressurePlate(ModBlocks.PEACH_PRESSURE_PLATE, ModBlocks.PEACH_PLANKS);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_SIGN); // No registerSign?
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_SLAB); // No registerSlab?
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_STAIRS); // No registerSign?
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PEACH_TRAPDOOR); // No registerSign?
+
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_LEAVES);
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.PEACH_SAPLING,
@@ -26,6 +38,5 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
     }
 }
